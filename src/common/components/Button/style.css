@@ -1,0 +1,98 @@
+.kai-button {
+    background: var(--pink-highlight);
+    color: var(--white-color);
+    cursor: pointer;
+    border-radius: 8px;
+    margin:0px 5px;
+    word-break: initial;
+    position: relative;
+}
+
+.kai-button:hover{
+    background: var(--pink-highlight) !important;
+    color: var(--white-color) !important;
+    transition-property: none;
+}
+
+.size-normal {
+    padding: 8px 16px;
+}
+
+.size-big {
+    padding: 13px 20px;
+}
+
+.kai-button.loading {
+    background: var(--pink-highlight) !important;
+    color: transparent !important;
+    pointer-events: none;
+}
+
+.kai-button.loading > span.text {
+    visibility: hidden;
+}
+
+/* kai-button-pink style */
+.kai-button-pink {
+    background:  var(--pink-highlight);
+}
+.kai-button-pink:hover{
+    background: var(--pink-highlight) !important;
+}
+
+/* kai-button-pink style */
+.kai-button-violet-gradient {
+    background:  var(--violet-gradient);
+}
+/* .kai-button-violet-gradient:hover{
+    background: var(--violet-gradient) !important;
+} */
+
+.kai-button-gray {
+    background: var(--gray-button);
+}
+
+.kai-button.kai-button-gray.loading {
+    background: var(--gray-button) !important;
+}
+
+
+.kai-button-gray:hover{
+    background: var(--gray-button-hover) !important;
+}
+
+.kai-button-gray:focus {
+    outline: none !important;
+}
+
+
+.button-loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ghost-button {
+    font-weight: 100;
+    background: #b5b5b5;
+    border: 1px solid #b5b5b5;;
+}
+
+
+.ghost-button:focus {
+    outline: none !important;
+    border: 1px solid rgb(82, 81, 81);
+}
+
+.disable {
+    opacity: 0.6;
+}
+
+.transparent-btn {
+    background: transparent;
+    border: 1px solid white;
+}
+.transparent-btn:hover{
+    background: rgba(255, 255, 255, 0.527) !important;
+}

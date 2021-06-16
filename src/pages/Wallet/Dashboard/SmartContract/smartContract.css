@@ -1,0 +1,34 @@
+.deploy-bytecode-container .rs-flex-box-grid-item {
+    margin-bottom: 15px;
+}
+
+.interact-smc-container .form-addon-container,
+.deploy-bytecode-container .form-addon-container {
+    margin-bottom: 5px;
+}
+.interact-smc-container .form-addon-container.button-addon,
+.deploy-bytecode-container .form-addon-container.button-addon {
+    text-align: right;
+}
+
+.deploy-bytecode-container .label,
+.interact-smc-container .label {
+    font-weight: bold;
+}
+
+.interact-smc-container .rs-uploader-file-item {
+    background: white;
+    border-radius: 8px;
+}
+
+.interact-smc-container .rs-uploader-file-item a{
+    color: #575757 !important;
+}
+
+
+@media screen and (max-width: 740px) {
+    .pd0{
+        padding: 5px 8px!important;
+    }
+}
+

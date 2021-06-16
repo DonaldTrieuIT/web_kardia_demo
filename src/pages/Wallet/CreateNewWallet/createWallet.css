@@ -1,0 +1,154 @@
+.create-wallet-container {
+    padding: 50px 0;
+    width: 100%;
+}
+
+.create-by-key {
+    margin-bottom: 30px;
+}
+
+.privatekey-text {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.child-tab {
+    margin-top: 50px;
+}
+
+.create-wallet-container .panel-container.private-key .rs-panel {
+    background: var(--cyan-highlight);
+}
+
+.create-wallet-container .panel-container.keystore-file .rs-panel {
+    background: var(--pink-highlight);
+}
+
+.create-wallet-container .panel-container.mnemonic-phrase .rs-panel {
+    background: var(--orange-highlight);
+}
+
+.create-wallet-container .panel-container .rs-panel-body {
+    height: 400px;
+}
+
+.create-wallet-container .panel-container .title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.create-wallet-container .panel-container .icon {
+    font-size: 40px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.create-wallet-container .panel-container .move-next-step {
+    position: absolute;
+    font-size: 18px;
+    right: 30px;
+    top: 380px;
+}
+.create-wallet-container .rs-flex-box-grid-item {
+    max-width: 300px;
+}
+
+.create-wallet-container .rs-panel-body {
+    background-color: unset;
+}
+
+/* Style for crate wallet with private key */
+.create-container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.button-container {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.button-container .submit-buttom {
+    background-color: #0f198e;
+    color: white;
+}
+
+/* Style dowload with keystore */
+.download-keystore-file {
+    margin-top: 30px;
+}
+.download-keystore-file a {
+    padding: 10px 20px;
+    background: linear-gradient(137.34deg,#22a993 14.41%,#7c7c83 116.67%);
+    color: white;
+    border-radius:8px;
+
+}
+
+.note {
+    font-weight: bold;
+    background: var(--orange-highlight);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.privatekey-input-container:hover {
+    border-color: none;
+}
+
+/* Style for create wallet with mnemonic */
+.mnemonic .tag-container {
+    background-color: #494d7d;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin: 5px;   
+}
+.mnemonic .mnemonic-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* background: #f1f1f1a6; */
+    justify-content: center;
+    padding: 20px 0;
+}
+
+/* Style modal veryfication mnemonic phrase */
+.mn-phrase-verification .rs-input-group {
+    border: 1px solid #c8c8d81f;
+    margin-bottom: 10px;
+}
+
+.icon-check{
+    color: var(--success-color);
+}
+
+.switch-phrase-option {
+    font-weight: 600;
+}
+
+.switch-phrase-option .rs-btn-toggle-checked,
+.switch-phrase-option .rs-btn-toggle{
+    background: var(--highlight);
+}
+
+/* mobile screen */
+@media screen and (max-width: 740px) {
+    .create-container{
+        padding:0px 20px;
+    }
+}
+/* end mobile screen */
+
+
+.mnemonic textarea.rs-input.input {
+    min-width: auto !important;
+}
